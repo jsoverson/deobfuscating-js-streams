@@ -13,7 +13,7 @@
     "shift-ast": "^6.0.0",
     "shift-parser": "^7.0.0",
     "shift-query": "^1.0.0",
-    "shift-refactor": "0.0.1",
+    "shift-refactor": "0.1.0",
     "shift-scope": "^4.0.0"
   }
 }
