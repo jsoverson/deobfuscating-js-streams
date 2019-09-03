@@ -1,0 +1,29 @@
+(function () {
+  var c = {aiHas: "4|2|0|3|1", dphWW: function (d, e) {
+    return d === e;
+  }, FMldB: "reader", zVloB: "world"};
+  class f {
+    constructor(g) {
+      this.target = g;
+    }
+    greet() {
+      console.log("Hello " + this.target);
+      if (c.dphWW(this.target, c.zVloB)) {
+        console.log("It's beautiful out, isn't it?");
+      }
+      if (c.dphWW(this.target, c.FMldB)) {
+        console.log("I like your hair!");
+      }
+      console.log("I hope you have a good day!");
+      console.log("I have run out of things to say.");
+    }
+    setTarget(j) {
+      this.target = j;
+    }
+  }
+  const k = new f(c.zVloB);
+  k.greet();
+  k.setTarget(c.FMldB);
+  k.greet();
+}());
+
